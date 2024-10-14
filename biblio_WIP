@@ -1,6 +1,7 @@
 # verbose-funicular
 
 
+
 @book{morgan_counterfactuals_2015,
 	address = {New York, NY},
 	edition = {Second Edition},
@@ -1573,3 +1574,530 @@ version: 3},
 	note = {arXiv:2409.10566 [cs]},
 	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Computer Vision and Pattern Recognition, I.2},
 }
+
+
+@article{felton_handle_2024,
+	title = {Handle with {Care}: {A} {Sociologist}’s {Guide} to {Causal} {Inference} with {Instrumental} {Variables}},
+	issn = {0049-1241, 1552-8294},
+	shorttitle = {Handle with {Care}},
+	url = {https://journals.sagepub.com/doi/10.1177/00491241241235900},
+	doi = {10.1177/00491241241235900},
+	abstract = {Instrumental variables (IV) analysis is a powerful, but fragile, tool for drawing causal inferences from observational data. Sociologists increasingly turn to this strategy in settings where unmeasured confounding between the treatment and outcome is likely. This paper reviews the assumptions required for IV and the consequences of violating them, focusing on sociological applications. We highlight three methodological problems IV faces: (i) identification bias, an asymptotic bias from assumption violations; (ii) estimation bias, a finite-sample bias that persists even when assumptions hold; and (iii) type-M error, the exaggeration of effect size given statistical significance. In each case, we emphasize how weak instruments exacerbate these problems and make results sensitive to minor violations of assumptions. We survey IV papers from top sociology journals, finding that assumptions often go unstated and robust uncertainty measures are rarely used. We provide a practical checklist to show how IV, despite its fragility, can still be useful when handled with care.},
+	language = {en},
+	urldate = {2024-10-08},
+	journal = {Sociological Methods \& Research},
+	author = {Felton, Chris and Stewart, Brandon M.},
+	month = aug,
+	year = {2024},
+	pages = {00491241241235900},
+}
+
+@misc{bansal_smaller_2024,
+	title = {Smaller, {Weaker}, {Yet} {Better}: {Training} {LLM} {Reasoners} via {Compute}-{Optimal} {Sampling}},
+	shorttitle = {Smaller, {Weaker}, {Yet} {Better}},
+	url = {http://arxiv.org/abs/2408.16737},
+	doi = {10.48550/arXiv.2408.16737},
+	abstract = {Training on high-quality synthetic data from strong language models (LMs) is a common strategy to improve the reasoning performance of LMs. In this work, we revisit whether this strategy is compute-optimal under a fixed inference budget (e.g., FLOPs). To do so, we investigate the trade-offs between generating synthetic data using a stronger but more expensive (SE) model versus a weaker but cheaper (WC) model. We evaluate the generated data across three key metrics: coverage, diversity, and false positive rate, and show that the data from WC models may have higher coverage and diversity, but also exhibit higher false positive rates. We then finetune LMs on data from SE and WC models in different settings: knowledge distillation, self-improvement, and a novel weak-to-strong improvement setup where a weaker LM teaches reasoning to a stronger LM. Our findings reveal that models finetuned on WC-generated data consistently outperform those trained on SE-generated data across multiple benchmarks and multiple choices of WC and SE models. These results challenge the prevailing practice of relying on SE models for synthetic data generation, suggesting that WC may be the compute-optimal approach for training advanced LM reasoners.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Bansal, Hritik and Hosseini, Arian and Agarwal, Rishabh and Tran, Vinh Q. and Kazemi, Mehran},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2408.16737 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+}
+
+@misc{eloundou_gpts_2023,
+	title = {{GPTs} are {GPTs}: {An} {Early} {Look} at the {Labor} {Market} {Impact} {Potential} of {Large} {Language} {Models}},
+	shorttitle = {{GPTs} are {GPTs}},
+	url = {http://arxiv.org/abs/2303.10130},
+	doi = {10.48550/arXiv.2303.10130},
+	abstract = {We investigate the potential implications of large language models (LLMs), such as Generative Pre-trained Transformers (GPTs), on the U.S. labor market, focusing on the increased capabilities arising from LLM-powered software compared to LLMs on their own. Using a new rubric, we assess occupations based on their alignment with LLM capabilities, integrating both human expertise and GPT-4 classifications. Our findings reveal that around 80\% of the U.S. workforce could have at least 10\% of their work tasks affected by the introduction of LLMs, while approximately 19\% of workers may see at least 50\% of their tasks impacted. We do not make predictions about the development or adoption timeline of such LLMs. The projected effects span all wage levels, with higher-income jobs potentially facing greater exposure to LLM capabilities and LLM-powered software. Significantly, these impacts are not restricted to industries with higher recent productivity growth. Our analysis suggests that, with access to an LLM, about 15\% of all worker tasks in the US could be completed significantly faster at the same level of quality. When incorporating software and tooling built on top of LLMs, this share increases to between 47 and 56\% of all tasks. This finding implies that LLM-powered software will have a substantial effect on scaling the economic impacts of the underlying models. We conclude that LLMs such as GPTs exhibit traits of general-purpose technologies, indicating that they could have considerable economic, social, and policy implications.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Eloundou, Tyna and Manning, Sam and Mishkin, Pamela and Rock, Daniel},
+	month = aug,
+	year = {2023},
+	note = {arXiv:2303.10130 [cs, econ, q-fin]},
+	keywords = {Economics - General Economics, Computer Science - Artificial Intelligence, Computer Science - Computers and Society},
+}
+
+@article{jaeger_naturalizing_2024,
+	title = {Naturalizing relevance realization: why agency and cognition are fundamentally not computational},
+	volume = {15},
+	issn = {1664-1078},
+	shorttitle = {Naturalizing relevance realization},
+	url = {https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1362658/full},
+	doi = {10.3389/fpsyg.2024.1362658},
+	abstract = {{\textless}p{\textgreater}The way organismic agents come to know the world, and the way algorithms solve problems, are fundamentally different. The most sensible course of action for an organism does not simply follow from logical rules of inference. Before it can even use such rules, the organism must tackle the problem of relevance. It must turn ill-defined problems into well-defined ones, turn semantics into syntax. This ability to realize relevance is present in all organisms, from bacteria to humans. It lies at the root of organismic agency, cognition, and consciousness, arising from the particular autopoietic, anticipatory, and adaptive organization of living beings. In this article, we show that the process of relevance realization is beyond formalization. It cannot be captured completely by algorithmic approaches. This implies that organismic agency (and hence cognition as well as consciousness) are at heart {\textless}italic{\textgreater}not{\textless}/italic{\textgreater} computational in nature. Instead, we show how the process of relevance is realized by an adaptive and emergent triadic dialectic (a trialectic), which manifests as a metabolic and ecological-evolutionary co-constructive dynamic. This results in a meliorative process that enables an agent to continuously keep a grip on its arena, its reality. To be alive means to make sense of one’s world. This kind of embodied ecological rationality is a fundamental aspect of life, and a key characteristic that sets it apart from non-living matter.{\textless}/p{\textgreater}},
+	language = {English},
+	urldate = {2024-10-14},
+	journal = {Frontiers in Psychology},
+	author = {Jaeger, Johannes and Riedl, Anna and Djedovic, Alex and Vervaeke, John and Walsh, Denis},
+	month = jun,
+	year = {2024},
+	keywords = {relevance realization, Open-Ended Evolution, Radical emergence, Autopoiesis, anticipation, adaptation, natural agency, Cognition},
+}
+
+@misc{xiong_everything_2024,
+	title = {Everything {Everywhere} {All} at {Once}: {LLMs} can {In}-{Context} {Learn} {Multiple} {Tasks} in {Superposition}},
+	shorttitle = {Everything {Everywhere} {All} at {Once}},
+	url = {http://arxiv.org/abs/2410.05603},
+	doi = {10.48550/arXiv.2410.05603},
+	abstract = {Large Language Models (LLMs) have demonstrated remarkable in-context learning (ICL) capabilities. In this study, we explore a surprising phenomenon related to ICL: LLMs can perform multiple, computationally distinct ICL tasks simultaneously, during a single inference call, a capability we term "task superposition". We provide empirical evidence of this phenomenon across various LLM families and scales and show that this phenomenon emerges even if we train the model to in-context learn one task at a time. We offer theoretical explanations that this capability is well within the expressive power of transformers. We also explore how LLMs internally compose task vectors during superposition. Furthermore, we show that larger models can solve more ICL tasks in parallel, and better calibrate their output distribution. Our findings offer insights into the latent capabilities of LLMs, further substantiate the perspective of "LLMs as superposition of simulators", and raise questions about the mechanisms enabling simultaneous task execution.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Xiong, Zheyang and Cai, Ziyang and Cooper, John and Ge, Albert and Papageorgiou, Vasilis and Sifakis, Zack and Giannou, Angeliki and Lin, Ziqian and Yang, Liu and Agarwal, Saurabh and Chrysos, Grigorios G. and Oymak, Samet and Lee, Kangwook and Papailiopoulos, Dimitris},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.05603 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@misc{marks_interpreting_2024,
+	title = {Interpreting {Learned} {Feedback} {Patterns} in {Large} {Language} {Models}},
+	url = {http://arxiv.org/abs/2310.08164},
+	doi = {10.48550/arXiv.2310.08164},
+	abstract = {Reinforcement learning from human feedback (RLHF) is widely used to train large language models (LLMs). However, it is unclear whether LLMs accurately learn the underlying preferences in human feedback data. We coin the term {\textbackslash}textit\{Learned Feedback Pattern\} (LFP) for patterns in an LLM's activations learned during RLHF that improve its performance on the fine-tuning task. We hypothesize that LLMs with LFPs accurately aligned to the fine-tuning feedback exhibit consistent activation patterns for outputs that would have received similar feedback during RLHF. To test this, we train probes to estimate the feedback signal implicit in the activations of a fine-tuned LLM. We then compare these estimates to the true feedback, measuring how accurate the LFPs are to the fine-tuning feedback. Our probes are trained on a condensed, sparse and interpretable representation of LLM activations, making it easier to correlate features of the input with our probe's predictions. We validate our probes by comparing the neural features they correlate with positive feedback inputs against the features GPT-4 describes and classifies as related to LFPs. Understanding LFPs can help minimize discrepancies between LLM behavior and training objectives, which is essential for the safety of LLMs.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Marks, Luke and Abdullah, Amir and Neo, Clement and Arike, Rauno and Krueger, David and Torr, Philip and Barez, Fazl},
+	month = aug,
+	year = {2024},
+	note = {arXiv:2310.08164 [cs]},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{el-sayed_mechanism-based_2024,
+	title = {A {Mechanism}-{Based} {Approach} to {Mitigating} {Harms} from {Persuasive} {Generative} {AI}},
+	url = {http://arxiv.org/abs/2404.15058},
+	doi = {10.48550/arXiv.2404.15058},
+	abstract = {Recent generative AI systems have demonstrated more advanced persuasive capabilities and are increasingly permeating areas of life where they can influence decision-making. Generative AI presents a new risk profile of persuasion due the opportunity for reciprocal exchange and prolonged interactions. This has led to growing concerns about harms from AI persuasion and how they can be mitigated, highlighting the need for a systematic study of AI persuasion. The current definitions of AI persuasion are unclear and related harms are insufficiently studied. Existing harm mitigation approaches prioritise harms from the outcome of persuasion over harms from the process of persuasion. In this paper, we lay the groundwork for the systematic study of AI persuasion. We first put forward definitions of persuasive generative AI. We distinguish between rationally persuasive generative AI, which relies on providing relevant facts, sound reasoning, or other forms of trustworthy evidence, and manipulative generative AI, which relies on taking advantage of cognitive biases and heuristics or misrepresenting information. We also put forward a map of harms from AI persuasion, including definitions and examples of economic, physical, environmental, psychological, sociocultural, political, privacy, and autonomy harm. We then introduce a map of mechanisms that contribute to harmful persuasion. Lastly, we provide an overview of approaches that can be used to mitigate against process harms of persuasion, including prompt engineering for manipulation classification and red teaming. Future work will operationalise these mitigations and study the interaction between different types of mechanisms of persuasion.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {El-Sayed, Seliem and Akbulut, Canfer and McCroskery, Amanda and Keeling, Geoff and Kenton, Zachary and Jalan, Zaria and Marchal, Nahema and Manzini, Arianna and Shevlane, Toby and Vallor, Shannon and Susser, Daniel and Franklin, Matija and Bridgers, Sophie and Law, Harry and Rahtz, Matthew and Shanahan, Murray and Tessler, Michael Henry and Douillard, Arthur and Everitt, Tom and Brown, Sasha},
+	month = apr,
+	year = {2024},
+	note = {arXiv:2404.15058 [cs]},
+	keywords = {Computer Science - Computers and Society, Computer Science - Artificial Intelligence},
+}
+
+@misc{hackenburg_evidence_2024,
+	title = {Evidence of a log scaling law for political persuasion with large language models},
+	url = {http://arxiv.org/abs/2406.14508},
+	doi = {10.48550/arXiv.2406.14508},
+	abstract = {Large language models can now generate political messages as persuasive as those written by humans, raising concerns about how far this persuasiveness may continue to increase with model size. Here, we generate 720 persuasive messages on 10 U.S. political issues from 24 language models spanning several orders of magnitude in size. We then deploy these messages in a large-scale randomized survey experiment (N = 25,982) to estimate the persuasive capability of each model. Our findings are twofold. First, we find evidence of a log scaling law: model persuasiveness is characterized by sharply diminishing returns, such that current frontier models are barely more persuasive than models smaller in size by an order of magnitude or more. Second, mere task completion (coherence, staying on topic) appears to account for larger models' persuasive advantage. These findings suggest that further scaling model size will not much increase the persuasiveness of static LLM-generated messages.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Hackenburg, Kobi and Tappin, Ben M. and Röttger, Paul and Hale, Scott and Bright, Jonathan and Margetts, Helen},
+	month = jun,
+	year = {2024},
+	note = {arXiv:2406.14508 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence, Computer Science - Computers and Society, Computer Science - Human-Computer Interaction},
+}
+
+@misc{milanfar_denoising:_2024,
+	title = {Denoising: {A} {Powerful} {Building}-{Block} for {Imaging}, {Inverse} {Problems}, and {Machine} {Learning}},
+	shorttitle = {Denoising},
+	url = {http://arxiv.org/abs/2409.06219},
+	doi = {10.48550/arXiv.2409.06219},
+	abstract = {Denoising, the process of reducing random fluctuations in a signal to emphasize essential patterns, has been a fundamental problem of interest since the dawn of modern scientific inquiry. Recent denoising techniques, particularly in imaging, have achieved remarkable success, nearing theoretical limits by some measures. Yet, despite tens of thousands of research papers, the wide-ranging applications of denoising beyond noise removal have not been fully recognized. This is partly due to the vast and diverse literature, making a clear overview challenging. This paper aims to address this gap. We present a clarifying perspective on denoisers, their structure, and desired properties. We emphasize the increasing importance of denoising and showcase its evolution into an essential building block for complex tasks in imaging, inverse problems, and machine learning. Despite its long history, the community continues to uncover unexpected and groundbreaking uses for denoising, further solidifying its place as a cornerstone of scientific and engineering practice.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Milanfar, Peyman and Delbracio, Mauricio},
+	month = sep,
+	year = {2024},
+	note = {arXiv:2409.06219 [cs, eess]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, Electrical Engineering and Systems Science - Image and Video Processing},
+}
+
+@misc{salvi_conversational_2024,
+	title = {On the {Conversational} {Persuasiveness} of {Large} {Language} {Models}: {A} {Randomized} {Controlled} {Trial}},
+	shorttitle = {On the {Conversational} {Persuasiveness} of {Large} {Language} {Models}},
+	url = {http://arxiv.org/abs/2403.14380},
+	doi = {10.48550/arXiv.2403.14380},
+	abstract = {The development and popularization of large language models (LLMs) have raised concerns that they will be used to create tailor-made, convincing arguments to push false or misleading narratives online. Early work has found that language models can generate content perceived as at least on par and often more persuasive than human-written messages. However, there is still limited knowledge about LLMs' persuasive capabilities in direct conversations with human counterparts and how personalization can improve their performance. In this pre-registered study, we analyze the effect of AI-driven persuasion in a controlled, harmless setting. We create a web-based platform where participants engage in short, multiple-round debates with a live opponent. Each participant is randomly assigned to one of four treatment conditions, corresponding to a two-by-two factorial design: (1) Games are either played between two humans or between a human and an LLM; (2) Personalization might or might not be enabled, granting one of the two players access to basic sociodemographic information about their opponent. We found that participants who debated GPT-4 with access to their personal information had 81.7\% (p {\textless} 0.01; N=820 unique participants) higher odds of increased agreement with their opponents compared to participants who debated humans. Without personalization, GPT-4 still outperforms humans, but the effect is lower and statistically non-significant (p=0.31). Overall, our results suggest that concerns around personalization are meaningful and have important implications for the governance of social media and the design of new online environments.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Salvi, Francesco and Ribeiro, Manoel Horta and Gallotti, Riccardo and West, Robert},
+	month = mar,
+	year = {2024},
+	note = {arXiv:2403.14380 [cs]},
+	keywords = {Computer Science - Computers and Society},
+}
+
+@misc{korinek_economic_2024,
+	type = {Working {Paper}},
+	series = {Working {Paper} {Series}},
+	title = {Economic {Policy} {Challenges} for the {Age} of {AI}},
+	url = {https://www.nber.org/papers/w32980},
+	doi = {10.3386/w32980},
+	abstract = {This paper examines the profound challenges that transformative advances in AI towards Artificial General Intelligence (AGI) will pose for economists and economic policymakers. I examine how the Age of AI will revolutionize the basic structure of our economies by diminishing the role of labor, leading to unprecedented productivity gains but raising concerns about job disruption, income distribution, and the value of education and human capital. I explore what roles may remain for labor post-AGI, and which production factors will grow in importance. The paper then identifies eight key challenges for economic policy in the Age of AI: (1) inequality and income distribution, (2) education and skill development, (3) social and political stability, (4) macroeconomic policy, (5) antitrust and market regulation, (6) intellectual property, (7) environmental implications, and (8) global AI governance. It concludes by emphasizing how economists can contribute to a better understanding of these challenges.},
+	urldate = {2024-10-14},
+	publisher = {National Bureau of Economic Research},
+	author = {Korinek, Anton},
+	month = sep,
+	year = {2024},
+	doi = {10.3386/w32980},
+}
+
+@misc{stechly_chain_2024,
+	title = {Chain of {Thoughtlessness}? {An} {Analysis} of {CoT} in {Planning}},
+	shorttitle = {Chain of {Thoughtlessness}?},
+	url = {http://arxiv.org/abs/2405.04776},
+	doi = {10.48550/arXiv.2405.04776},
+	abstract = {Large language model (LLM) performance on reasoning problems typically does not generalize out of distribution. Previous work has claimed that this can be mitigated with chain of thought prompting-a method of demonstrating solution procedures-with the intuition that it is possible to in-context teach an LLM an algorithm for solving the problem. This paper presents a case study of chain of thought on problems from Blocksworld, a classical planning domain, and examines the performance of two state-of-the-art LLMs across two axes: generality of examples given in prompt, and complexity of problems queried with each prompt. While our problems are very simple, we only find meaningful performance improvements from chain of thought prompts when those prompts are exceedingly specific to their problem class, and that those improvements quickly deteriorate as the size n of the query-specified stack grows past the size of stacks shown in the examples. We also create scalable variants of three domains commonly studied in previous CoT papers and demonstrate the existence of similar failure modes. Our results hint that, contrary to previous claims in the literature, CoT's performance improvements do not stem from the model learning general algorithmic procedures via demonstrations but depend on carefully engineering highly problem specific prompts. This spotlights drawbacks of chain of thought, especially the sharp tradeoff between possible performance gains and the amount of human labor necessary to generate examples with correct reasoning traces.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Stechly, Kaya and Valmeekam, Karthik and Kambhampati, Subbarao},
+	month = jun,
+	year = {2024},
+	note = {arXiv:2405.04776 [cs]},
+	keywords = {Computer Science - Artificial Intelligence},
+}
+
+@misc{verma_brittle_2024,
+	title = {On the {Brittle} {Foundations} of {ReAct} {Prompting} for {Agentic} {Large} {Language} {Models}},
+	url = {http://arxiv.org/abs/2405.13966},
+	doi = {10.48550/arXiv.2405.13966},
+	abstract = {The reasoning abilities of Large Language Models (LLMs) remain a topic of debate. Some methods such as ReAct-based prompting, have gained popularity for claiming to enhance sequential decision-making abilities of agentic LLMs. However, it is unclear what is the source of improvement in LLM reasoning with ReAct based prompting. In this paper we examine these claims of ReAct based prompting in improving agentic LLMs for sequential decision-making. By introducing systematic variations to the input prompt we perform a sensitivity analysis along the claims of ReAct and find that the performance is minimally influenced by the "interleaving reasoning trace with action execution" or the content of the generated reasoning traces in ReAct, contrary to original claims and common usage. Instead, the performance of LLMs is driven by the similarity between input example tasks and queries, implicitly forcing the prompt designer to provide instance-specific examples which significantly increases the cognitive burden on the human. Our investigation shows that the perceived reasoning abilities of LLMs stem from the exemplar-query similarity and approximate retrieval rather than any inherent reasoning abilities.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Verma, Mudit and Bhambri, Siddhant and Kambhampati, Subbarao},
+	month = may,
+	year = {2024},
+	note = {arXiv:2405.13966 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@misc{noauthor_how_nodate,
+	type = {Blog},
+	title = {"{How} {Often} {Does} {Taking} {Away} {Options} {Help}?"},
+	url = {https://niplav.site/options},
+	author = {, niplav},
+}
+
+@misc{boroujeni_attentional_2024,
+	title = {Attentional {Information} {Routing} in {The} {Human} {Brain}},
+	copyright = {© 2024, Posted by Cold Spring Harbor Laboratory. The copyright holder for this pre-print is the author. All rights reserved. The material may not be redistributed, re-used or adapted without the author's permission.},
+	url = {https://www.biorxiv.org/content/10.1101/2024.09.11.612548v1},
+	doi = {10.1101/2024.09.11.612548},
+	abstract = {Brain-wide communication supports behaviors that require coordination between sensory and associative regions. However, how large-scale brain networks route sensory information at fast timescales to guide upcoming actions remains unclear. Using spiking neural networks and human intracranial electrophysiology during spatial attention tasks, where participants detected a target at cued locations, we show that high-frequency activity bursts (HFAb) serve as information-carrying events, facilitating fast and long-range communications. HFAbs emerged as bouts of neural population spiking and were coordinated brain-wide through low-frequency rhythms. At the network-level, HFAb coordination identified distinct cue- and target-activated subnetworks. HFAbs following the cue onset in cue-subnetworks predicted successful target detection and preceded the information in target-subnetworks following target onset. Our findings suggest HFAbs as a neural mechanism for fast brain-wide information routing that supports attentional performance.},
+	language = {en},
+	urldate = {2024-10-14},
+	publisher = {bioRxiv},
+	author = {Boroujeni, Kianoush Banaie and Helfrich, Randolph F. and Fiebelkorn, Ian C. and Bentley, Nicole and Lin, Jack J. and Knight, Robert T. and Kastner, Sabine},
+	month = sep,
+	year = {2024},
+}
+
+@misc{walker_log_2024,
+	title = {Log {Neural} {Controlled} {Differential} {Equations}: {The} {Lie} {Brackets} {Make} a {Difference}},
+	shorttitle = {Log {Neural} {Controlled} {Differential} {Equations}},
+	url = {http://arxiv.org/abs/2402.18512},
+	doi = {10.48550/arXiv.2402.18512},
+	abstract = {The vector field of a controlled differential equation (CDE) describes the relationship between a control path and the evolution of a solution path. Neural CDEs (NCDEs) treat time series data as observations from a control path, parameterise a CDE's vector field using a neural network, and use the solution path as a continuously evolving hidden state. As their formulation makes them robust to irregular sampling rates, NCDEs are a powerful approach for modelling real-world data. Building on neural rough differential equations (NRDEs), we introduce Log-NCDEs, a novel, effective, and efficient method for training NCDEs. The core component of Log-NCDEs is the Log-ODE method, a tool from the study of rough paths for approximating a CDE's solution. Log-NCDEs are shown to outperform NCDEs, NRDEs, the linear recurrent unit, S5, and MAMBA on a range of multivariate time series datasets with up to \$50\{,\}000\$ observations.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Walker, Benjamin and McLeod, Andrew D. and Qin, Tiexin and Cheng, Yichuan and Li, Haoliang and Lyons, Terry},
+	month = feb,
+	year = {2024},
+	note = {arXiv:2402.18512 [cs]
+version: 1},
+	keywords = {Computer Science - Machine Learning},
+}
+
+@misc{wang_unleashing_2024,
+	title = {Unleashing the {Emergent} {Cognitive} {Synergy} in {Large} {Language} {Models}: {A} {Task}-{Solving} {Agent} through {Multi}-{Persona} {Self}-{Collaboration}},
+	shorttitle = {Unleashing the {Emergent} {Cognitive} {Synergy} in {Large} {Language} {Models}},
+	url = {http://arxiv.org/abs/2307.05300},
+	doi = {10.48550/arXiv.2307.05300},
+	abstract = {Human intelligence thrives on cognitive synergy, where collaboration among different minds yield superior outcomes compared to isolated individuals. In this work, we propose Solo Performance Prompting (SPP), which transforms a single LLM into a cognitive synergist by engaging in multi-turn self-collaboration with multiple personas. A cognitive synergist is an intelligent agent that collaboratively combines multiple minds' strengths and knowledge to enhance problem-solving in complex tasks. By dynamically identifying and simulating different personas based on task inputs, SPP unleashes the potential of cognitive synergy in LLMs. Our in-depth analysis shows that assigning multiple fine-grained personas in LLMs improves problem-solving abilities compared to using a single or fixed number of personas. We evaluate SPP on three challenging tasks: Trivia Creative Writing, Codenames Collaborative, and Logic Grid Puzzle, encompassing both knowledge-intensive and reasoning-intensive types. Unlike previous works, such as Chain-of-Thought, that solely enhance the reasoning abilities in LLMs, experimental results demonstrate that SPP effectively reduces factual hallucination, and maintains strong reasoning capabilities. Additionally, comparative experiments show that cognitive synergy only emerges in GPT-4 and does not appear in less capable models, such as GPT-3.5-turbo and Llama2-13b-chat, which draws an interesting analogy to human development. Code, data, and prompts can be found at: https://github.com/MikeWangWZHL/Solo-Performance-Prompting.git.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Wang, Zhenhailong and Mao, Shaoguang and Wu, Wenshan and Ge, Tao and Wei, Furu and Ji, Heng},
+	month = mar,
+	year = {2024},
+	note = {arXiv:2307.05300 [cs]
+version: 4},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+}
+
+@misc{gao_aligning_2024,
+	title = {Aligning {LLM} {Agents} by {Learning} {Latent} {Preference} from {User} {Edits}},
+	url = {http://arxiv.org/abs/2404.15269},
+	doi = {10.48550/arXiv.2404.15269},
+	abstract = {We study interactive learning of LLM-based language agents based on user edits made to the agent's output. In a typical setting such as writing assistants, the user interacts with a language agent to generate a response given a context, and may optionally edit the agent response to personalize it based on their latent preference, in addition to improving the correctness. The edit feedback is naturally generated, making it a suitable candidate for improving the agent's alignment with the user's preference, and for reducing the cost of user edits over time. We propose a learning framework, PRELUDE that infers a description of the user's latent preference based on historic edit data. The inferred user preference descriptions are used to define prompts for generating responses in the future. This avoids fine-tuning the agent, which is costly, challenging to scale with the number of users, and may even degrade its performance on other tasks. Furthermore, learning descriptive preference improves interpretability, allowing the user to view and modify the learned preference. However, user preference can be complex, subtle, and vary based on context, making it challenging to learn. To address this, we propose a simple yet effective algorithm named CIPHER that leverages the LLM to infer the user preference for a given context based on user edits. In the future, CIPHER retrieves inferred preferences from the k-closest contexts in the history, and forms an aggregate preference for response generation. We introduce two interactive environments -- summarization and email writing, and use a GPT-4 simulated user for evaluation. On both tasks, CIPHER outperforms several baselines by achieving the lowest edit distance cost while only having a small overhead in LLM query cost. Our analysis reports that user preferences learned by CIPHER show significant similarity to the ground truth latent preferences.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Gao, Ge and Taymanov, Alexey and Salinas, Eduardo and Mineiro, Paul and Misra, Dipendra},
+	month = jun,
+	year = {2024},
+	note = {arXiv:2404.15269 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence, Computer Science - Information Retrieval, Computer Science - Machine Learning},
+}
+
+@phdthesis{adzogble_primacy_2023,
+	type = {phdthesis},
+	title = {The {Primacy} of {Experience}. {Applying} {Whitehead}'s {Process} {Philosophy} to {Contemporary} {Questions} of {Consciousness}},
+	url = {https://theses.hal.science/tel-04623282},
+	abstract = {This thesis explores the philosophy of Alfred North Whitehead and its application to contemporary philosophical debates. It evaluates the problem of the bifurcation of nature and whether Whitehead's speculative metaphysics can provide an adequate solution. To understand Whitehead’s thought, all his works must be evaluated as attempting to overcome the problem of the bifurcation of nature in various ways. This research thesis endeavors to reconcile the aspects of Whiteheadian texts that point toward this holistic project of speculative metaphysics. Whitehead presents his metaphysics in the form of categoreal schemes that represent the reality of actual entities and their relations. By elaborating on the scheme, this thesis attempts to render speculative metaphysics comprehensible to a broader audience of Whiteheadian readers.Consequently, this thesis contends that the fallacy of a bifurcated nature lies at the base of other philosophical difficulties, such as the question of consciousness. The problem of both modern science and philosophy, according to Whitehead, is the failure to recognize and account for subjectivity as an intricate part of reality. Whitehead's process philosophy offers an alternative view that sees the universe as a dynamic process of the ‘becoming’ of actual entities. These actual entities are perpetually interactive, non-reductive subjective experiences with the capacity for rational choice in varying complexities of function. This perspective asserts that experience permeates all aspects of reality, while what is termed ‘consciousness’ is a specific form of the function of experience under certain conditions. The thesis shows that Whitehead's approach provides a means to reconcile our conscious selves with the structure of cosmic events. In summary, this thesis contributes to the reviving of Whitehead by analyzing process philosophical responses to the ‘hard problem’ of consciousness.},
+	language = {en},
+	urldate = {2024-10-14},
+	school = {Université Clermont Auvergne},
+	author = {Adzogble, Roseline},
+	month = oct,
+	year = {2023},
+}
+
+@misc{li_showing_2024,
+	title = {Showing {LLM}-{Generated} {Code} {Selectively} {Based} on {Confidence} of {LLMs}},
+	url = {http://arxiv.org/abs/2410.03234},
+	abstract = {Large Language Models (LLMs) have shown impressive abilities in code generation, but they may generate erroneous programs. Reading a program takes ten times longer than writing it. Showing these erroneous programs to developers will waste developers' energies and introduce security risks to software. To address the above limitations, we propose HonestCoder, a novel LLM-based code generation approach. HonestCoder selectively shows the generated programs to developers based on LLMs' confidence. The confidence provides valuable insights into the correctness of generated programs. To achieve this goal, we propose a novel approach to estimate LLMs' confidence in code generation. It estimates confidence by measuring the multi-modal similarity between LLMs-generated programs. We collect and release a multilingual benchmark named TruthCodeBench, which consists of 2,265 samples and covers two popular programming languages (i.e., Python and Java). We apply HonestCoder to four popular LLMs (e.g., DeepSeek-Coder and Code Llama) and evaluate it on TruthCodeBench. Based on the experiments, we obtain the following insights. (1) HonestCoder can effectively estimate LLMs' confidence and accurately determine the correctness of generated programs. For example, HonestCoder outperforms the state-of-the-art baseline by 27.79\% in AUROC and 63.74\% in AUCPR. (2) HonestCoder can decrease the number of erroneous programs shown to developers. Compared to eight baselines, it can show more correct programs and fewer erroneous programs to developers. (3) Compared to showing code indiscriminately, HonestCoder only adds slight time overhead (approximately 0.4 seconds per requirement). (4) We discuss future directions to facilitate the application of LLMs in software development. We hope this work can motivate broad discussions about measuring the reliability of LLMs' outputs in performing code-related tasks.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Li, Jia and Zhu, Yuqi and Li, Yongmin and Li, Ge and Jin, Zhi},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.03234 [cs]},
+	keywords = {Computer Science - Software Engineering, Computer Science - Computation and Language},
+}
+
+@misc{aichberger_semantically_2024,
+	title = {Semantically {Diverse} {Language} {Generation} for {Uncertainty} {Estimation} in {Language} {Models}},
+	url = {http://arxiv.org/abs/2406.04306},
+	abstract = {Large language models (LLMs) can suffer from hallucinations when generating text. These hallucinations impede various applications in society and industry by making LLMs untrustworthy. Current LLMs generate text in an autoregressive fashion by predicting and appending text tokens. When an LLM is uncertain about the semantic meaning of the next tokens to generate, it is likely to start hallucinating. Thus, it has been suggested that hallucinations stem from predictive uncertainty. We introduce Semantically Diverse Language Generation (SDLG) to quantify predictive uncertainty in LLMs. SDLG steers the LLM to generate semantically diverse yet likely alternatives for an initially generated text. This approach provides a precise measure of aleatoric semantic uncertainty, detecting whether the initial text is likely to be hallucinated. Experiments on question-answering tasks demonstrate that SDLG consistently outperforms existing methods while being the most computationally efficient, setting a new standard for uncertainty estimation in LLMs.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Aichberger, Lukas and Schweighofer, Kajetan and Ielanskyi, Mykyta and Hochreiter, Sepp},
+	month = jun,
+	year = {2024},
+	note = {arXiv:2406.04306 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence},
+}
+
+@misc{wang_tutor_2024,
+	title = {Tutor {CoPilot}: {A} {Human}-{AI} {Approach} for {Scaling} {Real}-{Time} {Expertise}},
+	shorttitle = {Tutor {CoPilot}},
+	url = {http://arxiv.org/abs/2410.03017},
+	abstract = {Generative AI, particularly Language Models (LMs), has the potential to transform real-world domains with societal impact, particularly where access to experts is limited. For example, in education, training novice educators with expert guidance is important for effectiveness but expensive, creating significant barriers to improving education quality at scale. This challenge disproportionately harms students from under-served communities, who stand to gain the most from high-quality education. We introduce Tutor CoPilot, a novel Human-AI approach that leverages a model of expert thinking to provide expert-like guidance to tutors as they tutor. This study is the first randomized controlled trial of a Human-AI system in live tutoring, involving 900 tutors and 1,800 K-12 students from historically under-served communities. Following a preregistered analysis plan, we find that students working with tutors that have access to Tutor CoPilot are 4 percentage points (p.p.) more likely to master topics (p{\textless}0.01). Notably, students of lower-rated tutors experienced the greatest benefit, improving mastery by 9 p.p. We find that Tutor CoPilot costs only \$20 per-tutor annually. We analyze 550,000+ messages using classifiers to identify pedagogical strategies, and find that tutors with access to Tutor CoPilot are more likely to use high-quality strategies to foster student understanding (e.g., asking guiding questions) and less likely to give away the answer to the student. Tutor interviews highlight how Tutor CoPilot's guidance helps tutors to respond to student needs, though they flag issues in Tutor CoPilot, such as generating suggestions that are not grade-level appropriate. Altogether, our study of Tutor CoPilot demonstrates how Human-AI systems can scale expertise in real-world domains, bridge gaps in skills and create a future where high-quality education is accessible to all students.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Wang, Rose E. and Ribeiro, Ana T. and Robinson, Carly D. and Loeb, Susanna and Demszky, Dora},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.03017 [cs]},
+	keywords = {Computer Science - Computation and Language},
+}
+
+@misc{valmeekam_planning_2024,
+	title = {Planning in {Strawberry} {Fields}: {Evaluating} and {Improving} the {Planning} and {Scheduling} {Capabilities} of {LRM} o1},
+	shorttitle = {Planning in {Strawberry} {Fields}},
+	url = {http://arxiv.org/abs/2410.02162},
+	abstract = {The ability to plan a course of action that achieves a desired state of affairs has long been considered a core competence of intelligent agents and has been an integral part of AI research since its inception. With the advent of large language models (LLMs), there has been considerable interest in the question of whether or not they possess such planning abilities, but -- despite the slew of new private and open source LLMs since GPT3 -- progress has remained slow. OpenAI claims that their recent o1 (Strawberry) model has been specifically constructed and trained to escape the normal limitations of autoregressive LLMs -- making it a new kind of model: a Large Reasoning Model (LRM). In this paper, we evaluate the planning capabilities of two LRMs (o1-preview and o1-mini) on both planning and scheduling benchmarks. We see that while o1 does seem to offer significant improvements over autoregressive LLMs, this comes at a steep inference cost, while still failing to provide any guarantees over what it generates. We also show that combining o1 models with external verifiers -- in a so-called LRM-Modulo system -- guarantees the correctness of the combined system's output while further improving performance.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Valmeekam, Karthik and Stechly, Kaya and Gundawar, Atharva and Kambhampati, Subbarao},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.02162 [cs]},
+	keywords = {Computer Science - Artificial Intelligence},
+}
+
+@misc{richardson_loss_2022,
+	title = {Loss as the {Inconsistency} of a {Probabilistic} {Dependency} {Graph}: {Choose} {Your} {Model}, {Not} {Your} {Loss} {Function}},
+	shorttitle = {Loss as the {Inconsistency} of a {Probabilistic} {Dependency} {Graph}},
+	url = {http://arxiv.org/abs/2202.11862},
+	abstract = {In a world blessed with a great diversity of loss functions, we argue that that choice between them is not a matter of taste or pragmatics, but of model. Probabilistic depencency graphs (PDGs) are probabilistic models that come equipped with a measure of "inconsistency". We prove that many standard loss functions arise as the inconsistency of a natural PDG describing the appropriate scenario, and use the same approach to justify a well-known connection between regularizers and priors. We also show that the PDG inconsistency captures a large class of statistical divergences, and detail benefits of thinking of them in this way, including an intuitive visual language for deriving inequalities between them. In variational inference, we find that the ELBO, a somewhat opaque objective for latent variable models, and variants of it arise for free out of uncontroversial modeling assumptions -- as do simple graphical proofs of their corresponding bounds. Finally, we observe that inconsistency becomes the log partition function (free energy) in the setting where PDGs are factor graphs.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Richardson, Oliver E.},
+	month = feb,
+	year = {2022},
+	note = {arXiv:2202.11862 [cs, math]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Information Theory},
+}
+
+@misc{martin_valid_2023,
+	title = {Valid and efficient imprecise-probabilistic inference with partial priors, {II}. {General} framework},
+	url = {http://arxiv.org/abs/2211.14567},
+	abstract = {Bayesian inference requires specification of a single, precise prior distribution, whereas frequentist inference only accommodates a vacuous prior. Since virtually every real-world application falls somewhere in between these two extremes, a new approach is needed. This series of papers develops a new framework that provides valid and efficient statistical inference, prediction, etc., while accommodating partial prior information and imprecisely-specified models more generally. This paper fleshes out a general inferential model construction that not only yields tests, confidence intervals, etc.{\textasciitilde}with desirable error rate control guarantees, but also facilitates valid probabilistic reasoning with de{\textasciitilde}Finetti-style no-sure-loss guarantees. The key technical novelty here is a so-called outer consonant approximation of a general imprecise probability which returns a data- and partial prior-dependent possibility measure to be used for inference and prediction. Despite some potentially unfamiliar imprecise-probabilistic concepts in the development, the result is an intuitive, likelihood-driven framework that will, as expected, agree with the familiar Bayesian and frequentist solutions in the respective extreme cases. More importantly, the proposed framework accommodates partial prior information where available and, therefore, leads to new solutions that were previously out of reach for both Bayesians and frequentists. Details are presented here for a wide range of examples, with more practical details to come in later installments.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Martin, Ryan},
+	month = sep,
+	year = {2023},
+	note = {arXiv:2211.14567 [math, stat]},
+	keywords = {Statistics - Methodology, Mathematics - Statistics Theory},
+}
+
+@misc{martin_imprecise-probabilistic_2021,
+	title = {An imprecise-probabilistic characterization of frequentist statistical inference},
+	url = {http://arxiv.org/abs/2112.10904},
+	abstract = {Between the two dominant schools of thought in statistics, namely, Bayesian and classical/frequentist, a main difference is that the former is grounded in the mathematically rigorous theory of probability while the latter is not. In this paper, I show that the latter is grounded in a different but equally mathematically rigorous theory of imprecise probability. Specifically, I show that for every suitable testing or confidence procedure with error rate control guarantees, there exists a consonant plausibility function whose derived testing or confidence procedure is no less efficient. Beyond its foundational implications, this characterization has at least two important practical consequences: first, it simplifies the interpretation of p-values and confidence regions, thus creating opportunities for improved education and scientific communication; second, the constructive proof of the main results leads to a strategy for new and improved methods in challenging inference problems.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Martin, Ryan},
+	month = dec,
+	year = {2021},
+	note = {arXiv:2112.10904 [math, stat]},
+	keywords = {Mathematics - Statistics Theory},
+}
+
+@misc{liell-cock_compositional_2024,
+	title = {Compositional imprecise probability},
+	url = {http://arxiv.org/abs/2405.09391},
+	abstract = {Imprecise probability is concerned with uncertainty about which probability distributions to use. It has applications in robust statistics and elsewhere. Imprecise probability can be modelled in various ways, including by convex sets of probability distributions. We look at programming language models for imprecise probability. Our desiderata are that we would like our model to support all kinds of composition, categorical and monoidal, in other words, guided by dataflow diagrams. Another equivalent perspective is that we would like a model of synthetic probability in the sense of Markov categories. There is already a fairly popular monad-based approach to imprecise probability, but it is not fully compositional because the monad involved is not commutative, which means that we do not have a proper monoidal structure. In this work, we provide a new fully compositional account. The key idea is to name the non-deterministic choices. To manage the renamings and disjointness of names, we use graded monads. We show that the resulting compositional model is maximal. We relate with the earlier monad approach, showing that we obtain tighter bounds on the uncertainty.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Liell-Cock, Jack and Staton, Sam},
+	month = may,
+	year = {2024},
+	note = {arXiv:2405.09391 [cs, math]},
+	keywords = {Computer Science - Programming Languages, Computer Science - Logic in Computer Science, Mathematics - Category Theory, Mathematics - Probability},
+}
+
+@misc{mccoy_when_2024,
+	title = {When a language model is optimized for reasoning, does it still show embers of autoregression? {An} analysis of {OpenAI} o1},
+	shorttitle = {When a language model is optimized for reasoning, does it still show embers of autoregression?},
+	url = {http://arxiv.org/abs/2410.01792},
+	abstract = {In "Embers of Autoregression" (McCoy et al., 2023), we showed that several large language models (LLMs) have some important limitations that are attributable to their origins in next-word prediction. Here we investigate whether these issues persist with o1, a new system from OpenAI that differs from previous LLMs in that it is optimized for reasoning. We find that o1 substantially outperforms previous LLMs in many cases, with particularly large improvements on rare variants of common tasks (e.g., forming acronyms from the second letter of each word in a list, rather than the first letter). Despite these quantitative improvements, however, o1 still displays the same qualitative trends that we observed in previous systems. Specifically, o1 -- like previous LLMs -- is sensitive to the probability of examples and tasks, performing better and requiring fewer "thinking tokens" in high-probability settings than in low-probability ones. These results show that optimizing a language model for reasoning can mitigate but might not fully overcome the language model's probability sensitivity.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {McCoy, R. Thomas and Yao, Shunyu and Friedman, Dan and Hardy, Mathew D. and Griffiths, Thomas L.},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.01792 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+}
+
+@misc{heinen_task-relevant_2024,
+	title = {Task-relevant representational formats in multi-layered memory traces},
+	copyright = {http://creativecommons.org/licenses/by-nc/4.0/},
+	url = {http://biorxiv.org/lookup/doi/10.1101/2024.09.10.612205},
+	doi = {10.1101/2024.09.10.612205},
+	abstract = {ABSTRACT
+          During encoding, stimuli are embedded into memory traces that allow for their later retrieval. This process is selective, however, because not every aspect of our experiences can be remembered. In addition, post-encoding stages including consolidation are widely assumed to induce transformation processes of the memory trace. It is unclear, however, how selective the memory trace is, whether irrelevant information is completely removed during encoding and/or consolidation, and how this affects retrieval of either general (gist-like) or specific (perceptual) information. Here we show that memory traces consist of multi-layered representational spaces whose formats are flexibly strengthened or weakened during encoding and consolidation depending on task instructions, distinctly shaping their affordances for general or specific retrieval. In a series of behavioral experiments, participants first compared pairs of natural images on either two conceptual or two perceptual dimensions, leading them to incorporate the images into representational “spaces” defined by Euclidean distances. We found that distances in task-relevant but not irrelevant spaces affected memory strengths. Conceptual encoding benefitted general without impairing specific retrieval, suggesting that perceptual information remained in the memory trace even if it was task-irrelevant. By contrast, targeted memory reactivation (TMR) of conceptual encoding improved memory strength but deteriorated perceptual discrimination during retrieval, indicating that it weakened the accessibility of perceptual formats. Our results demonstrate the flexibility of representational formats that are incorporated into memory traces, and more generally show how the organization of information in representational spaces shapes human behavior.},
+	language = {en},
+	urldate = {2024-10-14},
+	author = {Heinen, Rebekka and Rau, Elias M.B. and Herweg, Nora A. and Axmacher, Nikolai},
+	month = sep,
+	year = {2024},
+}
+
+@misc{unal_bayesian_2024,
+	title = {Bayesian {Self}-{Training} for {Semi}-{Supervised} {3D} {Segmentation}},
+	url = {http://arxiv.org/abs/2409.08102},
+	abstract = {3D segmentation is a core problem in computer vision and, similarly to many other dense prediction tasks, it requires large amounts of annotated data for adequate training. However, densely labeling 3D point clouds to employ fully-supervised training remains too labor intensive and expensive. Semi-supervised training provides a more practical alternative, where only a small set of labeled data is given, accompanied by a larger unlabeled set. This area thus studies the effective use of unlabeled data to reduce the performance gap that arises due to the lack of annotations. In this work, inspired by Bayesian deep learning, we first propose a Bayesian self-training framework for semi-supervised 3D semantic segmentation. Employing stochastic inference, we generate an initial set of pseudo-labels and then filter these based on estimated point-wise uncertainty. By constructing a heuristic \$n\$-partite matching algorithm, we extend the method to semi-supervised 3D instance segmentation, and finally, with the same building blocks, to dense 3D visual grounding. We demonstrate state-of-the-art results for our semi-supervised method on SemanticKITTI and ScribbleKITTI for 3D semantic segmentation and on ScanNet and S3DIS for 3D instance segmentation. We further achieve substantial improvements in dense 3D visual grounding over supervised-only baselines on ScanRefer. Our project page is available at ouenal.github.io/bst/.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Unal, Ozan and Sakaridis, Christos and Van Gool, Luc},
+	month = sep,
+	year = {2024},
+	note = {arXiv:2409.08102 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+}
+
+@article{costello_durably_2024,
+	title = {Durably reducing conspiracy beliefs through dialogues with {AI}},
+	volume = {385},
+	issn = {0036-8075, 1095-9203},
+	url = {https://www.science.org/doi/10.1126/science.adq1814},
+	doi = {10.1126/science.adq1814},
+	abstract = {Conspiracy theory beliefs are notoriously persistent. Influential hypotheses propose that they fulfill important psychological needs, thus resisting counterevidence. Yet previous failures in correcting conspiracy beliefs may be due to counterevidence being insufficiently compelling and tailored. To evaluate this possibility, we leveraged developments in generative artificial intelligence and engaged 2190 conspiracy believers in personalized evidence-based dialogues with GPT-4 Turbo. The intervention reduced conspiracy belief by {\textasciitilde}20\%. The effect remained 2 months later, generalized across a wide range of conspiracy theories, and occurred even among participants with deeply entrenched beliefs. Although the dialogues focused on a single conspiracy, they nonetheless diminished belief in unrelated conspiracies and shifted conspiracy-related behavioral intentions. These findings suggest that many conspiracy theory believers can revise their views if presented with sufficiently compelling evidence.
+          , 
+            Editor’s summary
+            
+              Beliefs in conspiracies that a US election was stolen incited an attempted insurrection on 6 January 2021. Another conspiracy alleging that Germany’s COVID-19 restrictions were motivated by nefarious intentions sparked violent protests at Berlin’s Reichstag parliament building in August 2020. Amid growing threats to democracy, Costello
+              et al
+              . investigated whether dialogs with a generative artificial intelligence (AI) interface could convince people to abandon their conspiratorial beliefs (see the Perspective by Bago and Bonnefon). Human participants described a conspiracy theory that they subscribed to, and the AI then engaged in persuasive arguments with them that refuted their beliefs with evidence. The AI chatbot’s ability to sustain tailored counterarguments and personalized in-depth conversations reduced their beliefs in conspiracies for months, challenging research suggesting that such beliefs are impervious to change. This intervention illustrates how deploying AI may mitigate conflicts and serve society. —Ekeoma Uzogara
+            
+          , 
+            
+              INTRODUCTION
+              Widespread belief in unsubstantiated conspiracy theories is a major source of public concern and a focus of scholarly research. Despite often being quite implausible, many such conspiracies are widely believed. Prominent psychological theories propose that many people want to adopt conspiracy theories (to satisfy underlying psychic “needs” or motivations), and thus, believers cannot be convinced to abandon these unfounded and implausible beliefs using facts and counterevidence. Here, we question this conventional wisdom and ask whether it may be possible to talk people out of the conspiratorial “rabbit hole” with sufficiently compelling evidence.
+            
+            
+              RATIONALE
+              We hypothesized that interventions based on factual, corrective information may seem ineffective simply because they lack sufficient depth and personalization. To test this hypothesis, we leveraged advancements in large language models (LLMs), a form of artificial intelligence (AI) that has access to vast amounts of information and the ability to generate bespoke arguments. LLMs can thereby directly refute particular evidence each individual cites as supporting their conspiratorial beliefs.
+              To do so, we developed a pipeline for conducting behavioral science research using real-time, personalized interactions between research subjects and AI. Across two experiments, 2190 Americans articulated—in their own words—a conspiracy theory in which they believe, along with the evidence they think supports this theory. They then engaged in a three-round conversation with the LLM GPT-4 Turbo, which we prompted to respond to this specific evidence while trying to reduce participants’ belief in the conspiracy theory (or, as a control condition, to converse with the AI about an unrelated topic).
+            
+            
+              RESULTS
+              The treatment reduced participants’ belief in their chosen conspiracy theory by 20\% on average. This effect persisted undiminished for at least 2 months; was consistently observed across a wide range of conspiracy theories, from classic conspiracies involving the assassination of John F. Kennedy, aliens, and the illuminati, to those pertaining to topical events such as COVID-19 and the 2020 US presidential election; and occurred even for participants whose conspiracy beliefs were deeply entrenched and important to their identities. Notably, the AI did not reduce belief in true conspiracies. Furthermore, when a professional fact-checker evaluated a sample of 128 claims made by the AI, 99.2\% were true, 0.8\% were misleading, and none were false. The debunking also spilled over to reduce beliefs in unrelated conspiracies, indicating a general decrease in conspiratorial worldview, and increased intentions to rebut other conspiracy believers.
+            
+            
+              CONCLUSION
+              Many people who strongly believe in seemingly fact-resistant conspiratorial beliefs can change their minds when presented with compelling evidence. From a theoretical perspective, this paints a surprisingly optimistic picture of human reasoning: Conspiratorial rabbit holes may indeed have an exit. Psychological needs and motivations do not inherently blind conspiracists to evidence—it simply takes the right evidence to reach them. Practically, by demonstrating the persuasive power of LLMs, our findings emphasize both the potential positive impacts of generative AI when deployed responsibly and the pressing importance of minimizing opportunities for this technology to be used irresponsibly.
+              
+                
+                  Dialogues with AI durably reduce conspiracy beliefs even among strong believers.
+                  (Left) Average belief in participant’s chosen conspiracy theory by condition (treatment, in which the AI attempted to refute the conspiracy theory, in red; control, in which the AI discussed an irrelevant topic, in blue) and time point for study 1. (Right) Change in belief in chosen conspiracy from before to after AI conversation, by condition and participant’s pretreatment belief in the conspiracy.},
+	language = {en},
+	number = {6714},
+	urldate = {2024-10-14},
+	journal = {Science},
+	author = {Costello, Thomas H. and Pennycook, Gordon and Rand, David G.},
+	month = sep,
+	year = {2024},
+	pages = {eadq1814},
+}
+
+@article{van_rooij_intractability_2012,
+	title = {Intractability and approximation of optimization theories of cognition},
+	volume = {56},
+	copyright = {https://www.elsevier.com/tdm/userlicense/1.0/},
+	issn = {00222496},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S002224961200048X},
+	doi = {10.1016/j.jmp.2012.05.002},
+	language = {en},
+	number = {4},
+	urldate = {2024-10-14},
+	journal = {Journal of Mathematical Psychology},
+	author = {Van Rooij, Iris and Wareham, Todd},
+	month = aug,
+	year = {2012},
+	pages = {232--247},
+}
+
+@misc{penalver_context-dependent_2024,
+	title = {Context-dependent neural preparation for information relevance vs. probability},
+	copyright = {http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	url = {http://biorxiv.org/lookup/doi/10.1101/2024.05.20.594985},
+	doi = {10.1101/2024.05.20.594985},
+	abstract = {Abstract
+          Preparation is a top-down phenomenon known to improve performance across different situations. In light of recent electrophysiological findings that suggest that anticipatory neural preactivations linked to preparation are context-specific and do not generalize across domains, in the current study we used fMRI to investigate the brain regions involved in these differential patterns. We applied multivariate decoding to data obtained in a paradigm where, in different blocks, cues provided information about the relevance or probability of incoming target stimuli. Results showed that the anticipated stimulus category was pre-activated in both conditions, mostly in different brain regions within the ventral visual cortex and with differential overlap with actual target perception. Crucially, there was scarce cross-classification across attention and expectation contexts except on a patch of the fusiform gyrus, indicating mostly differential neural coding of anticipated contents in relevance and probability scenarios. Finally, a model-based fMRI-EEG fusion showed that these regions differentially code for specific conditions during preparation, as well as specifically preparing for category anticipation in a ramping-up manner. Overall, our results stress the specificity of anticipatory neural processing depending on its informative role while highlighting a key hub of commonality in the fusiform gyrus.},
+	language = {en},
+	urldate = {2024-10-14},
+	author = {Peñalver, José M.G. and González-García, Carlos and Palenciano, Ana F. and López-García, David and Ruz, María},
+	month = may,
+	year = {2024},
+}
+
+@misc{lupidi_source2synth:_2024,
+	title = {{Source2Synth}: {Synthetic} {Data} {Generation} and {Curation} {Grounded} in {Real} {Data} {Sources}},
+	shorttitle = {{Source2Synth}},
+	url = {http://arxiv.org/abs/2409.08239},
+	abstract = {Large Language Models still struggle in challenging scenarios that leverage structured data, complex reasoning, or tool usage. In this paper, we propose Source2Synth: a new method that can be used for teaching LLMs new skills without relying on costly human annotations. Source2Synth takes as input a custom data source and produces synthetic data points with intermediate reasoning steps grounded in real-world sources. Source2Synth improves the dataset quality by discarding low-quality generations based on their answerability. We demonstrate the generality of this approach by applying it to two challenging domains: we test reasoning abilities in multi-hop question answering (MHQA), and tool usage in tabular question answering (TQA). Our method improves performance by 25.51\% for TQA on WikiSQL and 22.57\% for MHQA on HotPotQA compared to the fine-tuned baselines.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Lupidi, Alisia and Gemmell, Carlos and Cancedda, Nicola and Dwivedi-Yu, Jane and Weston, Jason and Foerster, Jakob and Raileanu, Roberta and Lomeli, Maria},
+	month = sep,
+	year = {2024},
+	note = {arXiv:2409.08239 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+}
+
+@misc{rane_concept_2023,
+	title = {Concept {Alignment} as a {Prerequisite} for {Value} {Alignment}},
+	url = {http://arxiv.org/abs/2310.20059},
+	abstract = {Value alignment is essential for building AI systems that can safely and reliably interact with people. However, what a person values -- and is even capable of valuing -- depends on the concepts that they are currently using to understand and evaluate what happens in the world. The dependence of values on concepts means that concept alignment is a prerequisite for value alignment -- agents need to align their representation of a situation with that of humans in order to successfully align their values. Here, we formally analyze the concept alignment problem in the inverse reinforcement learning setting, show how neglecting concept alignment can lead to systematic value mis-alignment, and describe an approach that helps minimize such failure modes by jointly reasoning about a person's concepts and values. Additionally, we report experimental results with human participants showing that humans reason about the concepts used by an agent when acting intentionally, in line with our joint reasoning model.},
+	urldate = {2024-10-14},
+	publisher = {arXiv},
+	author = {Rane, Sunayana and Ho, Mark and Sucholutsky, Ilia and Griffiths, Thomas L.},
+	month = oct,
+	year = {2023},
+	note = {arXiv:2310.20059 [cs]},
+	keywords = {Computer Science - Artificial Intelligence},
+}
+
